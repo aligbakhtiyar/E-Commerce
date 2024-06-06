@@ -6,7 +6,7 @@ const  getUserFromLocalStorage = () =>{
 }
 
 const initialState = {
-  user: { username: "ahmad" }
+  user: getUserFromLocalStorage()
 };
 
 const userSlice = createSlice({
